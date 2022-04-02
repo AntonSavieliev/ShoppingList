@@ -4,8 +4,8 @@ import androidx.recyclerview.widget.DiffUtil
 import com.savieliev.anton.shoppinglist.domain.entities.ShopItem
 
 class ShopListDiffCallback(
-        private val oldList: List<ShopItem>,
-        private val newList: List<ShopItem>,
+    private val oldList: List<ShopItem>,
+    private val newList: List<ShopItem>,
 ) : DiffUtil.Callback() {
 
     override fun getOldListSize(): Int {
